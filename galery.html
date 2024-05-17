@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- AOS -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<style>
+  .kepala{
+       /* position: fixed; */
+        display: flex;
+        justify-content: space-around;
+        width: 1360px;
+        height: 100px;
+        background-color: rgb(100, 109, 109);
+        line-height: 100px;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    h1{
+        color: white;
+        line-height: 100px;
+        margin-left: px;
+        font-size:23px;
+    }
+    li{
+        display: inline-block;
+        font-size: 15px;
+        margin:10px;
+        color:white;
+        line-height: 20px;
+        /* left:50px; */
+        /* left:200px; */
+        
+    }
+    li:hover,a.fokus{
+        background-color: aliceblue;
+        border-radius: 50px;
+        border:1px solid black;
+        padding:10px 15px;
+        COLOR:BLACK;
+    }
+
+    .kotak{
+    background-color: white;
+    width: 1350px;
+    height: 1200px; 
+    }
+.kok{
+    position: absolute;
+    top: 430px;
+    left: 560px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.er{
+    position: absolute;
+    top: 200px;
+    left: 560px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.nun{
+    position: absolute;
+    top: 630px;
+    left: 950px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.alya{
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.nana{
+    position: absolute;
+    top: 960px;
+    left: 50px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.alyi{
+    position: absolute;
+    top: 730px;
+    left: 50px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.ainun{
+    position: absolute;
+    top: 960px;
+    margin-left: 1100px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.erna{
+    position: absolute;
+    top: 730px;
+    right: 20px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.kotak2{
+    width:1350px;
+    height:50px;
+    background-color: rgb(100, 109, 109);
+}
+.uy{
+    margin-left: 700px;
+    width: 600px;
+    border-radius: 20px;
+}
+.kota{
+    margin-top: -1181px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+   }
+   .ap{
+    font-size: 20px;
+   }
+   .hus{
+    width: 100px;
+    height: 100px;
+    /* top: 70px; */
+   }
+   .aqa{
+    margin-top: -1200px;
+    color: black;
+    margin-left: 500px;
+    font-size: 30px;
+   }
+   .koka{
+    position: absolute;
+    margin-top: 430px;
+    left: 220px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.ero{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.hs{
+    margin-top: 500px;
+    margin-left: 400px;
+    font-size: 30px;
+    color:rgb(10, 10, 10);
+}
+.opl{
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 30px;
+    color:rgb(10, 10, 10);
+}
+.ham{
+    position: absolute;
+    margin-top: 300px;
+    left: 60px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.dani{
+    position: absolute;
+    margin-top: 50px;
+    left: 60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.ibu{
+    position: absolute;
+    margin-top: 300px;
+    left: 450px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.mam{
+    position: absolute;
+    margin-top: 50px;
+    left: 400px;
+    width: 220px;
+    height: 215px;
+    border-radius: 50%;
+}
+.bpk{
+    position: absolute;
+    margin-top: 300px;
+    left: 800px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.pae{
+    position: absolute;
+    margin-top: 50px;
+    left: 750px;
+    width: 220px;
+    height: 215px;
+    border-radius: 50%;
+}
+.osy{
+    position: absolute;
+    margin-top: 300px;
+    left: 1150px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.osi{
+    position: absolute;
+    margin-top: 50px;
+    left: 1100px;
+    width: 220px;
+    height: 215px;
+    border-radius: 50%;
+}
+.fff{
+    position: absolute;
+    margin-top: 640px;
+    left: 1080px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.fif{
+    position: absolute;
+    margin-top: 400px;
+    left: 1100px;
+    width: 220px;
+    height: 215px;
+    border-radius: 50%;
+}
+.yiyi{
+    position: absolute;
+    margin-top: 640px;
+    left: 770px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.yiy{
+    position: absolute;
+    margin-top: 400px;
+    left: 750px;
+    width: 220px;
+    height: 215px;
+    border-radius: 50%;
+}
+.eee{
+    position: absolute;
+    margin-top: 640px;
+    left: 430px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.eie{
+    position: absolute;
+    margin-top: 400px;
+    left: 420px;
+    width: 220px;
+    height: 215px;
+    border-radius: 50%;
+}
+.xxx{
+    position: absolute;
+    margin-top: 640px;
+    left: 60px;
+    color:rgb(10, 10, 10);
+    width:400px;
+    height:400px;
+    font-size: 18px;
+
+    
+}
+.xax{
+    position: absolute;
+    margin-top: 400px;
+    left: 50px;
+    width: 220px;
+    height: 215px;
+    border-radius: 50%;
+}
+.jj{
+    color: black;
+    font-size: 30px;
+    margin-left: 500px;
+}
+.aoa{
+    margin-top: -20px;
+    width: 400px;
+    height: 400px;
+}
+    
+.bab{
+    width: 400px;
+    height: 400px;
+}
+.cack{
+    width: 400px;
+    height: 401px;
+}
+.cc{
+    margin-left: 470px;
+    margin-top: -807px;
+}
+.dad{
+    width: 400px;
+    height: 401px;
+}
+.dd{
+    margin-left: 940px;
+    margin-top: -405px;
+}
+.oio{
+    width: 400px;
+    height: 401px;
+}
+.ooo{
+    margin-left: 470px;
+    margin-top: 0px;
+}
+.umu{
+    width: 400px;
+    height: 401px;
+}
+.uu{
+    margin-left: 940px;
+    margin-top: -405px;
+}
+</style>
+<body>
+    <div class="kepala">
+        <img class="hus" src="img/25.png" alt="">
+        <h1>SMK NEGERI 1 PETASIA TIMUR</h1>
+        <ul>
+            <a href="index.html"><li>HOME</li></a>
+            <a href="index2.html"><li>JURUSAN</li></a>
+            <a href="index3.html"><li>ALAMAT</li></a>
+            <a href="index4.html"><li>GALERY</li></a>
+            <a href="http://localhost/CRUD-SMK%201%20PETIR/login.php" target="_blank"><li>LOGIN</li></a>
+        </ul>
+    <div class="text2">
+        <form>
+            <input type="search" placeholder="search">
+        </form>
+    </div>
+    </div> 
+    <div class="kotak"></div>
+    <div class="yono">
+        <h1 class="aqa">Kepala Sekolah Smkn 1 Petir</h1>
+        <img class="er" data-aos="flip-left" data-aos-duration="2000" src="img/e.jpg" alt="">
+    </div>
+    <div class="kok" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Alpin Lainua,S.pd.,M.Pkim</p>
+            <p>Jabatan : Kepla Sekolah</p> 
+            <p>Alamat : Desa Kolondale</p>
+        </ul>
+    </div>
+    <div class="yoni">
+        <img class="ero" data-aos="flip-left" data-aos-duration="2000" src="img/29.jpg" alt="">
+    </div>
+    <div class="koka" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Mirwansyah,S.Pd</p>
+            <p>Jabatan : Wakasek Kurikulum</p> 
+            <p>Alamat : Desa Molores</p>
+        </ul>
+    </div>
+    <div class="al">
+        <img class="alya" data-aos="flip-left" data-aos-duration="2000"  src="img/30.jpg" alt="">
+    </div>
+    <div class="nun" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Hermawan,S.Pd</p>
+            <p>Jabatan : Wakasek Kesiswaan</p> 
+            <p>Alamat : Desa Mohoni</p>
+        </ul>
+    </div>
+    <div class="ali">
+        <img class="alyi"  data-aos="flip-left" data-aos-duration="2000" src="img/31.jpg" alt="">
+    </div>
+    <div class="nana" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Nining Rianti,S.Pd</p>
+            <p>Jabatan : Wakasek Humas</p> 
+            <p>Alamat : Desa Molino</p>
+        </ul>
+    </div>
+    <div class="aly">
+        <img class="erna"  data-aos="flip-left" data-aos-duration="2000" src="img/32.jpg" alt="">
+    </div>
+    <div class="ainun" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Marlina Lau Lau,S.Pd</p>
+            <p>Jabatan : Wakasek sarana </p> 
+            <p>dan prasana</p>
+            <p>Alamat : Desa Molores</p>
+        </ul>
+    </div>
+   <h1 class="hs">Wakasek dan Sekaligus Guru Smkn 1 Petir</h1>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+    <hr>
+    <div class="tejo">
+        <h1 class="opl">Guru Smkn 1 petir</h1>
+    </div>
+    <div class="dan">
+        <img class="dani"  data-aos="flip-left" data-aos-duration="2000" src="img/a7.jpg" alt="">
+    </div>
+    <div class="ham" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Joni Panggalo</p>
+            <p>Jabatan : Guru Kejuruan</p> 
+            <p>Alamat : Desa Kolondale</p>
+        </ul>
+    </div>
+    <div class="danii">
+        <img class="mam"  data-aos="flip-left" data-aos-duration="2000" src="img/a2.jpg" alt="">
+    </div>
+    <div class="ibu" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Murniyati,S.Pd</p>
+            <p>Jabatan : Guru Kejuruan  </p> 
+            <p>Alamat : Desa Molores</p>
+        </ul>
+    </div>
+    <div class="pak">
+        <img class="pae"  data-aos="flip-left" data-aos-duration="2000" src="img/a3.jpg" alt="">
+    </div>
+    <div class="bpk" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Marlenita,S.Pd</p>
+            <p>Jabatan : Guru SBK</p> 
+            <p>Alamat : Desa Salonsa</p>
+        </ul>
+    </div>
+    <div class="os">
+        <img class="osi"  data-aos="flip-left" data-aos-duration="2000" src="img/a4.jpg" alt="">
+    </div>
+    <div class="osy" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Marlenita,S.Pd</p>
+            <p>Jabatan : Guru SBK</p> 
+            <p>Alamat : Desa Salonsa</p>
+        </ul>
+    </div>
+    <div class="ff">
+        <img class="fif"  data-aos="flip-left" data-aos-duration="2000" src="img/a6.jpg" alt="">
+    </div>
+    <div class="fff" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Priscilla M A Keayo,S.Pd</p>
+            <p>Jabatan : Guru Agama Kristen</p> 
+            <p>Alamat : Desa Poso</p>
+        </ul>
+    </div>
+    <div class="yy">
+        <img class="yiy"  data-aos="flip-left" data-aos-duration="2000" src="img/a8.jpg" alt="">
+    </div>
+    <div class="yiyi" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Roslina Nona,S.Pd</p>
+            <p>Jabatan : Guru Matematika</p> 
+            <p>Alamat : Desa Molores</p>
+        </ul>
+    </div>
+    <div class="ee">
+        <img class="eie"  data-aos="flip-left" data-aos-duration="2000" src="img/a9.jpg" alt="">
+    </div>
+    <div class="eee" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Florida Ayi Kue,S.Pd</p>
+            <p>Jabatan : Guru Agama Katolik</p> 
+            <p>Alamat : Desa Molores</p>
+        </ul>
+    </div>
+    <div class="xx">
+        <img class="xax"  data-aos="flip-left" data-aos-duration="2000" src="img/a1.jpg" alt="">
+    </div>
+    <div class="xxx" data-aos="fade-left"  data-aos-duration="2000">
+        <ul>
+            <p>Nama : Popi Handirani,S.Pd</p>
+            <p>Jabatan : Guru Agama Islam </p> 
+            <p>Alamat : Desa Molores</p> 
+        </ul>
+    </div>
+    <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <hr>
+   <h1 class="jj">Siswa Siswi Smkn 1 Petir</h1>
+<div class="aa">
+    <img class="aoa"  data-aos="zoom-in-up" data-aos-duration="2000" src="img/b1.jpg" alt="">
+</div>
+<div class="bb">
+    <img class="bab"  data-aos="zoom-in-up" data-aos-duration="2000" src="img/b2.jpg" alt="">
+</div>
+<div class="cc">
+    <img class="cack"  data-aos="zoom-in-up" data-aos-duration="2000" src="img/b3.jpg" alt="">
+</div>
+<div class="dd">
+    <img class="dad"  data-aos="zoom-in-up" data-aos-duration="2000" src="img/b4.jpg" alt="">
+</div>
+<div class="ooo">
+    <img class="oio"  data-aos="zoom-in-up" data-aos-duration="2000" src="img/b5.jpg" alt="">
+</div>
+<div class="uu">
+    <img class="umu"  data-aos="zoom-in-up" data-aos-duration="2000" src="img/b6.jpg" alt="">
+</div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
